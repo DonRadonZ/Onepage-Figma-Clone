@@ -6,17 +6,19 @@ export default function Navbar() {
       <nav className={styles.nav}>
         <ul>
             <li>
-                Home
+                <a href="">Home</a>
             </li>
             <li>
-                About
+                <a href="">About</a>
             </li>
             <li>
-                Contact
+                <a href="">Contact</a>
             </li>
         </ul>
         <h1>Landing</h1>
-        <button className={styles.btn}>Buy Now</button>
+        <div className={styles.btn}>
+        <a >Buy Now</a>
+        </div>
       </nav>
       </div>
   )

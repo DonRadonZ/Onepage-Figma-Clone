@@ -1,8 +1,59 @@
 .body{
-    background: yellow;
+    
+    height: 1161px;
+    background: url("../../assets/designer_1.png") no-repeat;
+    background-position: right bottom 50px;
+    margin: 0 auto;
 }
 .header {
-    background: red;
+    margin-left: 225px;
+    margin-top: 250px;
     width: 540px;
-    height: 420px;
+    height: 316px;
+}
+
+.header .title{
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+}
+
+.header .description{
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #505F98;
+}
+
+.header .button_group{
+    display: flex;
+}
+
+.header .button_group a{
+    display: inline-block;
+}
+
+.button_group .purchase{
+    background: #111B47;
+    font-size: 16px;
+    color: #fff;
+    padding: .5rem 2.25rem;
+    text-decoration: none;
+    margin-right: 31px;
+    border-radius: 2px;
+}
+
+.button_group .learnmore{
+    color: #111B47;
+    font-size: 16px;
+    background: #fff;
+    border: 2px solid #111B47;
+    border-radius: 2px;
+    padding: .5rem 2.25rem;
+    text-decoration: none;
+    margin-right: 31px;
+}
+
+p{
+    margin-bottom: 20px;
 }

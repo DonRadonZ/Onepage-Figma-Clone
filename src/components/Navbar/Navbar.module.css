@@ -1,12 +1,13 @@
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
-
+    
     align-items: center;
     height: 60px;
 }
@@ -19,9 +20,13 @@
 } 
 
 .nav ul li{
-    font-size: 1.5rem;
+    font-size: 16px;
     color: #505F98;
     font-weight: 500;
+}
+
+.nav ul li a{
+    text-decoration: none;
 }
 
 .nav h1{
@@ -33,7 +38,14 @@
     background: #111B47;
     width: 160px;
     height: 26px;
-    align-items: center;
     color: #ffff;
     border-radius: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a{
+    font-size: 12px;
 }

@@ -1,0 +1,64 @@
+.landing{
+    background-color: #fff;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    z-index: 99;
+    position: relative;
+}
+
+.landing .container{
+    width: 1440px;
+    height: 569px;
+    margin: 0 auto;
+}
+
+.landing .box{
+    display: flex;
+    justify-content:  space-between;
+
+}
+
+.info{
+    margin-top: 160px;
+    width: 540px;
+}
+
+.title{
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: #091133;
+
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.image{
+    margin-top: 105px;
+    width: 540px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.landing .button_group{
+    display: flex;
+}
+
+.landing .button_group a{
+    display: inline-block;
+}
+
+.button_group .purchase{
+    background: #111B47;
+    font-size: 16px;
+    color: #fff;
+    padding: .5rem 2.25rem;
+    text-decoration: none;
+    margin-right: 31px;
+    border-radius: 2px;
+}

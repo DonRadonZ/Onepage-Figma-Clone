@@ -1,13 +1,14 @@
-import styles from './LandingPage4.module.css'
-import LandingPhoto from '../../assets/undraw_mention_6k5d.svg'
+import styles from './LandingPage2.module.css'
+import LandingPhoto2 from '../../assets/undraw_happy_news_hxmt.svg'
 
-export default function LandingPage4() {
+
+export default function LandingPage2() {
   return (
     <div className={styles.landing}>
       <div className={styles.container}>
       <div className={styles.box}>
       <div className={styles.image}>
-          <img src={LandingPhoto} alt="" />
+          <img src={LandingPhoto2} alt="" />
         </div>
         <div className={styles.info}>
           <div className={styles.title}>
@@ -18,14 +19,13 @@ export default function LandingPage4() {
 </p>
             <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
           </div>
-          <div className={styles.button_group}>
-          <a href="" className={styles.purchase}>Purchase UI Kit</a>
-          </div>
-         </div>
+
+        </div>
       </div>
       
         </div>
         
       </div>
+    
   )
 }
