@@ -1,0 +1,8 @@
+footer{
+    background: #929ECC;
+    height: 220px;
+}
+
+.footer-top {
+    display: flex;
+}
