@@ -1,8 +1,60 @@
 footer{
-    background: #929ECC;
+    background: #e7ecff8b;
     height: 220px;
 }
 
-.footer-top {
+.container{
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+
+.top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    border-bottom: 1px solid #CDD1D4;
+}
+
+.top .purchase{
+    background: #111B47;
+    width: 160px;
+    height: 26px;
+    color: #ffff;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.menu,.social {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #929ECC;
+}
+
+.social li{
+    margin-left: 35px;
+}
+
+.social li a{
+    text-decoration: none;
+    color: #929ECC;
 }
