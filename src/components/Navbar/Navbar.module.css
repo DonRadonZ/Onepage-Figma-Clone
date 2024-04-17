@@ -1,14 +1,8 @@
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-    
-}
-
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
+    
     height: 60px;
 }
 
@@ -16,7 +10,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
 } 
 
 .nav ul li{
@@ -27,16 +21,18 @@
 
 .nav ul li a{
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .nav h1{
     color: #37447E;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .btn{
     background: #111B47;
-    width: 160px;
+    width: 100px;
+    margin-right: 10px;
     height: 26px;
     color: #ffff;
     border-radius: 3px;
@@ -46,6 +42,58 @@
     justify-content: center;
 }
 
-.btn a{
-    font-size: 12px;
+
+
+
+@media screen and (min-width: 1440px) {
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+        
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    
+    .nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    } 
+    
+    .nav ul li{
+        font-size: 16px;
+        color: #505F98;
+        font-weight: 500;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+    }
+    
+    .nav h1{
+        color: #37447E;
+        font-size: 1.6rem;
+    }
+    
+    .btn{
+        background: #111B47;
+        width: 160px;
+        height: 26px;
+        color: #ffff;
+        border-radius: 3px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn a{
+        font-size: 12px;
+    }
 }

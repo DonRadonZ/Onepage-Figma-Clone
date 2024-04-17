@@ -14,8 +14,9 @@ export default function Price() {
         </div>
         <div className={styles.btm}>
         <p>See, One price. Simple.</p>
+        <div className={styles.btm_btn}>
         <a href="" className={styles.btn}>Purchase Now</a>
-
+        </div>
       </div>
       </div>
       

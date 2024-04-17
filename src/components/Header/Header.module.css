@@ -1,28 +1,33 @@
 .body{
-    
-    height: 1161px;
-    background: url("../../assets/designer_1.png") no-repeat;
-    background-position: right bottom 50px;
+    height: 1000px;
+    background: url("../../assets/designer_1.png") no-repeat ;
+    background-size: 480px;
     margin: 0 auto;
 }
+
 .header {
-    margin-left: 225px;
-    margin-top: 250px;
-    width: 540px;
+    justify-content: center;
+    margin-top: 500px;
+    margin-left: 50px;
+    width: 400px;
     height: 316px;
 }
 
 .header .title{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     color: #091133;
 }
 
 .header .description{
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 30px;
     line-height: 30px;
     color: #505F98;
+}
+
+.header .button_group a{
+    display: inline-block;
 }
 
 .header .button_group{
@@ -39,7 +44,8 @@
     color: #fff;
     padding: .5rem 2.25rem;
     text-decoration: none;
-    margin-right: 31px;
+    margin-top: 10px;
+    margin-right: 30px;
     border-radius: 2px;
 }
 
@@ -51,9 +57,133 @@
     border-radius: 2px;
     padding: .5rem 2.25rem;
     text-decoration: none;
-    margin-right: 31px;
+    margin-top: 10px;
+    margin-right: 30px;
 }
 
-p{
-    margin-bottom: 20px;
+
+
+@media screen and (min-width: 992px) {
+    .body{
+    
+        height: 775px;
+        background: url("../../assets/designer_1.png") no-repeat;
+        background-position: right bottom 10px;
+        background-size: 700px;
+        margin: 0 auto;
+    }
+    .header {
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 480px;
+        height: 316px;
+    }
+    
+    .header .title{
+        font-size: 45px;
+        font-weight: 500;
+        color: #091133;
+    }
+    
+    .header .description{
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 30px;
+        color: #5463a2;
+    }
+    
+    .header .button_group{
+        display: flex;
+    }
+    
+    .header .button_group a{
+        display: inline-block;
+    }
+    
+    .button_group .purchase{
+        background: #111B47;
+        font-size: 16px;
+        color: #fff;
+        padding: .5rem 2.25rem;
+        text-decoration: none;
+        margin-right: 31px;
+        border-radius: 2px;
+    }
+    
+    .button_group .learnmore{
+        color: #111B47;
+        font-size: 16px;
+        background: #fff;
+        border: 2px solid #111B47;
+        border-radius: 2px;
+        padding: .5rem 2.25rem;
+        text-decoration: none;
+        margin-right: 31px;
+    }
+    
+    p{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .body{
+    
+        height: 1161px;
+        background: url("../../assets/designer_1.png") no-repeat;
+        background-position: right bottom 50px;
+        margin: 0 auto;
+    }
+    .header {
+        margin-left: 225px;
+        margin-top: 250px;
+        width: 540px;
+        height: 316px;
+    }
+    
+    .header .title{
+        font-size: 50px;
+        font-weight: 500;
+        color: #091133;
+    }
+    
+    .header .description{
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 30px;
+        color: #505F98;
+    }
+    
+    .header .button_group{
+        display: flex;
+    }
+    
+    .header .button_group a{
+        display: inline-block;
+    }
+    
+    .button_group .purchase{
+        background: #111B47;
+        font-size: 16px;
+        color: #fff;
+        padding: .5rem 2.25rem;
+        text-decoration: none;
+        margin-right: 31px;
+        border-radius: 2px;
+    }
+    
+    .button_group .learnmore{
+        color: #111B47;
+        font-size: 16px;
+        background: #fff;
+        border: 2px solid #111B47;
+        border-radius: 2px;
+        padding: .5rem 2.25rem;
+        text-decoration: none;
+        margin-right: 31px;
+    }
+    
+    p{
+        margin-bottom: 20px;
+    }
 }
